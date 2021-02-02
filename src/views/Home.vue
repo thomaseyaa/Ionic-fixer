@@ -9,8 +9,8 @@
     <ion-content :fullscreen="true">
       <div id="container">
         <img src="assets/img/currencies.png"/>
-          <Search @amount="getValue"></Search>
-          <Results v-if="currency" :currency="currency"></Results>
+        <Search @amount="getValue"></Search>
+        <Results v-if="currency" :currency="currency"></Results>
       </div>
     </ion-content>
 

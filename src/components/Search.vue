@@ -2,7 +2,7 @@
   <ion-card>
     <ion-item color="light">
       <ion-label position="stacked">Amount</ion-label>
-      <ion-input v-model="convert.amount"></ion-input>
+      <ion-input type="number" v-model="convert.amount"></ion-input>
     </ion-item>
 
     <ion-item color="dark">
@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import { IonCard, IonItem, IonLabel, IonInput, IonSelect, IonSelectOption, IonButton } from '@ionic/vue';
+import { IonCard, IonItem, IonLabel, IonInput, IonSelect, IonSelectOption, IonButton, IonCardContent } from '@ionic/vue';
 
 export default({
   name: 'Home',
@@ -47,6 +47,7 @@ export default({
     IonSelect,
     IonSelectOption,
     IonButton,
+    IonCardContent,
   },
   data(){
     return{

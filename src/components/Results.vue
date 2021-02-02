@@ -18,7 +18,7 @@ export default({
   },
   props: ['currency'],
   data(){
-    return {
+    return{
       result: "",
       rate: "",
     }
